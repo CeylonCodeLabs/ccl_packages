@@ -1,6 +1,6 @@
 name: ccl_ui
 description: "A new Flutter project."
-version: 0.0.2
+version: 0.0.3
 homepage:
 publish_to: https://github.com/CeylonCodeLabs/ccl_packages/tree/main/ccl_ui
 
@@ -12,7 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   ccl_data:
-    path: '../ccl_data'
+    git:
+      url: 'https://github.com/CeylonCodeLabs/ccl_packages'
+      path: 'ccl_data'
   flutter_support_pack:
   responsive_builder:
   stacked:
