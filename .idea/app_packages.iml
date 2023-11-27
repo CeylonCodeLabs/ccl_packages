@@ -9,6 +9,15 @@
       <excludeFolder url="file://$MODULE_DIR$/app_services/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/app_services/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/app_services/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_services/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_services/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_services/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_data/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_data/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_data/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_ui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ccl_ui/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
