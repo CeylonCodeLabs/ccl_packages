@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/app_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app_ui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app_ui/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app_services/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app_services/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app_services/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="5e89a041-2057-41b9-a977-15c7723de52f" />
+  </component>
+</module>
