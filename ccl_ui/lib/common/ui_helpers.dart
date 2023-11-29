@@ -151,6 +151,16 @@ double getResponsiveFontSize(BuildContext context,
   return responsiveSize;
 }
 
+/// Gets a fraction of the screen width based on the specified [fraction], [offsetBy], and [max] values.
+double getScreenWidthFraction(BuildContext context,
+        {double fraction = 1.0, double offsetBy = 0, double max = 3000}) =>
+    min((screenWidth(context) - offsetBy) / fraction, max);
+
+/// Gets a fraction of the screen height based on the specified [fraction], [offsetBy], and [max] values.
+double getScreenHeightFraction(BuildContext context,
+        {double fraction = 1.0, double offsetBy = 0, double max = 3000}) =>
+    min((screenHeight(context) - offsetBy) / fraction, max);
+
 /// Gets the expanded height of the FlexibleSpaceBar based on the current screen
 /// type and the specified [mobile] and [tablet] values.
 double flexibleSpaceBarExpandedHeight(BuildContext context,
