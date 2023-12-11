@@ -1,16 +1,19 @@
+import 'package:ccl_ui/ccl_ui.dart';
 import 'package:flutter/material.dart';
 
 class EmptyWidget extends StatelessWidget {
+  final Widget? image;
   final Widget? button;
   final double? size;
-  final String? textMessage;
+  final String textMessage;
   final Function()? onPressed;
 
   const EmptyWidget({
     super.key,
+    this.image,
     this.button,
     this.size,
-    this.textMessage,
+    this.textMessage = 'Data not found',
     this.onPressed,
   });
 
@@ -19,19 +22,19 @@ class EmptyWidget extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        //TODO
-        // Assets.images.emptyImage.image(
-        //   width: MediaQuery.of(context).size.width / 5,
-        //   height: MediaQuery.of(context).size.width / 5,
-        // ),
-        const SizedBox(height: 8),
+        if (image != null) ...[
+          image!,
+          verticalSpaceLight,
+        ],
         Text(
-          textMessage ?? 'Data not found',
+          textMessage,
           style: Theme.of(context).textTheme.bodyLarge,
           textAlign: TextAlign.center,
         ),
-        const SizedBox(height: 24),
-        button ?? Container(),
+        if (button != null) ...[
+          verticalSpaceMedium,
+          button!,
+        ],
       ],
     );
   }

@@ -2,6 +2,27 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 
+/// A filled input border for an [InputDecorator].
+///
+/// This border draws a horizontal line at the bottom of the input,
+/// with styling defined by the [borderSide] property. The border
+/// also uses the [borderRadius] property to shape the bottom corners
+/// of the input field.
+///
+/// This border is typically used with a filled input decorator, see
+
+/// [InputDecoration.filled]. The border radius defines the shape
+
+/// of the background fill as well as the bottom left and right
+
+/// edges of the underline itself.
+///
+/// See also:
+///
+///  * [InputDecorator], which uses this border by default.
+///  * [UnderlineInputBorder], a similar border that is not filled.
+///  * [BorderSide], which defines the style of the underline.
+///  * [BorderRadius], which defines the radius of the corners.
 class CCLFilledInputBorder extends InputBorder {
   /// Creates an underline border for an [InputDecorator].
   ///
