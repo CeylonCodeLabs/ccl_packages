@@ -11,29 +11,42 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package provide basic ui helper functions, widgets and elements for every day development
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+1. UI helpers
+2. Common widgets
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+First go through package API doc. Import necessary classes and utilize.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+For an example we have widget call CCLTable which will draw a table. 
+Likewise there are multiple widgets that will help on your daily developments.
 
 ```dart
-const like = 'sample';
+CCLTable(
+  rows: [
+    CCLTableRow(
+      cells: [
+        CCLTableCell(text: 'Column 1'),
+        CCLTableCell(text: 'Column 2'),
+      ],
+    ),
+    CCLTableRow(
+      decoration: BoxDecoration(color: Colors.grey.shade200),
+      cells: [
+        CCLTableCell(text: 'Row 2, Column 1'),
+        CCLTableCell(text: 'Row 2, Column 2'),
+      ],
+    ),
+  ],
+),
 ```
 
-## Additional information
+## Contributing
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Any bug or new feature required, feel free to file a PR.
