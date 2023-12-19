@@ -1,0 +1,6 @@
+- chore(Release): v0.0.5 (Pasan)
+- feature(TextStyle): Add font weight and color extensions (Pasan)
+- docs(Readme): Updates (Pasan)
+- docs(License): Updates (Pasan)
+- build(Pub): Dry run updates (Pasan)
+- docs(Change Log): Updates (Pasan)

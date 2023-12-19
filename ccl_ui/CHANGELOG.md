@@ -1,4 +1,26 @@
 
+<a name="v0.0.5"></a>
+## [v0.0.5](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.4...v0.0.5) (2023-12-19)
+
+### Build
+
+* **Pub:** Dry run updates
+
+### Chore
+
+* **Release:** v0.0.5
+
+### Docs
+
+* **Change Log:** Updates
+* **License:** Updates
+* **Readme:** Updates
+
+### Feature
+
+* **TextStyle:** Add font weight and color extensions
+
+
 <a name="v0.0.4"></a>
 ## v0.0.4 (2023-12-11)
 
