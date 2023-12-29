@@ -1,4 +1,20 @@
 
+<a name="v0.0.6"></a>
+## [v0.0.6](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.5...v0.0.6) (2023-12-29)
+
+### Chore
+
+* **Release:** v0.0.6
+
+### Docs
+
+* **Change Log:** Updates
+
+### Feature
+
+* **TextStyle:** Add ColorScheme colors to color extension
+
+
 <a name="v0.0.5"></a>
 ## [v0.0.5](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.4...v0.0.5) (2023-12-19)
 
