@@ -1,4 +1,20 @@
 
+<a name="v0.0.7"></a>
+## [v0.0.7](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.6...v0.0.7) (2024-01-23)
+
+### Chore
+
+* **Release:** v0.0.7
+
+### Docs
+
+* **Change Log:** Updates
+
+### Feature
+
+* **Table:** Add tooltip property
+
+
 <a name="v0.0.6"></a>
 ## [v0.0.6](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.5...v0.0.6) (2023-12-29)
 
