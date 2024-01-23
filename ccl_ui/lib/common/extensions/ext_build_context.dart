@@ -59,9 +59,15 @@ extension BuildContextExt on BuildContext {
   /// The TextStyle for the 'BodySmall' text style.
   TextStyle? get styleBodySmall => textTheme.bodySmall;
 
+  /// Whether system dark mode is currently enabled.
+  bool get isSystemDarkMode {
+    final brightness = MediaQuery.of(this).platformBrightness;
+    return brightness == Brightness.dark;
+  }
+
   /// Whether dark mode is currently enabled.
   bool get isDarkMode {
-    final brightness = MediaQuery.of(this).platformBrightness;
+    final brightness = Theme.of(this).brightness;
     return brightness == Brightness.dark;
   }
 }
