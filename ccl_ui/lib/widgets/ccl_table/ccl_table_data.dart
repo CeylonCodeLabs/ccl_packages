@@ -47,6 +47,9 @@ class CCLTableCell {
   /// The text to be displayed in the cell.
   final String? text;
 
+  /// Tooltip to shown using [Tooltip]
+  final String? tooltip;
+
   /// The alignment of the text in the cell.
   final TextAlign? textAlign;
 
@@ -71,6 +74,7 @@ class CCLTableCell {
   /// Creates a new instance of the CCLTableCell class.
   CCLTableCell({
     this.text,
+    this.tooltip,
     this.textAlign,
     this.style,
     this.maxLines,

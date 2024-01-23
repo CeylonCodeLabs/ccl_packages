@@ -79,28 +79,35 @@ class CCLTable extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var tableRows = rows.map((row) {
+    final tableRows = rows.map((row) {
       return TableRow(
         decoration: row.decoration,
         children: row.cells.map((cell) {
+          final child = cell.text.isNotNullOrEmpty
+              ? Text(
+                  cell.text!,
+                  textAlign: cell.textAlign,
+                  style: cell.style,
+                  overflow: cell.textOverflow,
+                  maxLines: cell.maxLines,
+                )
+              : cell.child;
+
           return Container(
             padding: row.padding != null && cell.padding != null
                 ? row.padding!.add(cell.padding!)
                 : row.padding ?? cell.padding ?? EdgeInsets.zero,
             decoration: cell.decoration,
-            child: cell.text.isNotNullOrEmpty
-                ? Text(
-                    cell.text!,
-                    textAlign: cell.textAlign,
-                    style: cell.style,
-                    overflow: cell.textOverflow,
-                    maxLines: cell.maxLines,
+            child: cell.tooltip.isNotNullOrEmpty
+                ? Tooltip(
+                    message: cell.tooltip,
+                    child: child,
                   )
-                : cell.child,
+                : child,
           );
-        }).toList(),
+        }).toList(growable: false),
       );
-    }).toList();
+    }).toList(growable: false);
 
     return Table(
       children: tableRows,
