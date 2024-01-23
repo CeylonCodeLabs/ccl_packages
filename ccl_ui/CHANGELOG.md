@@ -1,4 +1,20 @@
 
+<a name="v0.0.8"></a>
+## [v0.0.8](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.7...v0.0.8) (2024-01-23)
+
+### Chore
+
+* **Release:** v0.0.8
+
+### Docs
+
+* **Change Log:** Updates
+
+### Feature
+
+* **Theme:** Add system and app theme brightness check properties to determine is dark mode
+
+
 <a name="v0.0.7"></a>
 ## [v0.0.7](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.6...v0.0.7) (2024-01-23)
 
