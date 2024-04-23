@@ -54,7 +54,7 @@ class StreamWidget<T> extends StatelessWidget {
 
   /// Creates a new instance of the StreamWidget.
   const StreamWidget({
-    Key? key,
+    super.key,
     required this.stream,
     required this.done,
     this.initialData,
@@ -62,7 +62,7 @@ class StreamWidget<T> extends StatelessWidget {
     this.error,
     this.showError = true,
     this.errorTextStyle,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

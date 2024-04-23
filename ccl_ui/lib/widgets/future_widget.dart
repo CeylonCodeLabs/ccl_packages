@@ -44,12 +44,12 @@ class FutureWidget<T> extends StatelessWidget {
 
   /// Creates a new instance of the FutureWidget.
   const FutureWidget({
-    Key? key,
+    super.key,
     required this.future,
     this.waiting,
     required this.done,
     this.errorTextStyle,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
