@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../widgets.dart';
 
 /// Represents a row in a CCLTable widget.
 ///

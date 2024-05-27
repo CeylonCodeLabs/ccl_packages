@@ -1,9 +1,4 @@
-import 'dart:ui';
-
-import 'package:ccl_ui/common/common.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_support_pack/flutter_support_pack.dart';
-import 'package:stacked/stacked.dart';
+part of '../widgets.dart';
 
 /// A widget that displays a progress indicator overlay when the provided ViewModel is busy.
 ///
@@ -83,11 +78,7 @@ class BackgroundProgress<T extends BaseViewModel> extends ViewModelWidget<T> {
         children: [
           child,
           if (viewModel.isBusy)
-            Positioned(
-              top: 0,
-              bottom: 0,
-              left: 0,
-              right: 0,
+            Positioned.fill(
               child: AnimatedOpacity(
                 opacity: viewModel.isBusy ? 1 : 0,
                 duration: const Duration(milliseconds: 2000),

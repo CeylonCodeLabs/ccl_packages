@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../common.dart';
 
 /// Extension methods for the BuildContext class.
 ///
@@ -61,7 +61,7 @@ extension BuildContextExt on BuildContext {
 
   /// Whether system dark mode is currently enabled.
   bool get isSystemDarkMode {
-    final brightness = MediaQuery.of(this).platformBrightness;
+    final brightness = MediaQuery.platformBrightnessOf(this);
     return brightness == Brightness.dark;
   }
 

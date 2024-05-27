@@ -1,6 +1,4 @@
-import 'dart:math' as math;
-
-import 'package:flutter/material.dart';
+part of 'widgets.dart';
 
 /// A filled input border for an [InputDecorator].
 ///

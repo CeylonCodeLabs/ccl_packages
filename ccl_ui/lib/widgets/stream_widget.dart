@@ -1,5 +1,4 @@
-import 'package:ccl_ui/ccl_ui.dart';
-import 'package:flutter/material.dart';
+part of 'widgets.dart';
 
 /// A widget that displays a loading indicator while a stream is being listened to,
 /// then displays the data from the stream once it has emitted a value.

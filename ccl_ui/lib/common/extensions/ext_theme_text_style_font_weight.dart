@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../common.dart';
 
 extension FontWeightExtension on TextStyle? {
   TextStyle? get w100 => this?.copyWith(fontWeight: FontWeight.w100);

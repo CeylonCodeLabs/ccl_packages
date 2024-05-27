@@ -1,5 +1,4 @@
-import 'package:ccl_ui/ccl_ui.dart';
-import 'package:flutter/material.dart';
+part of 'widgets.dart';
 
 /// A widget that displays a loading indicator while a future is being loaded,
 /// then displays the result of the future once it has completed.

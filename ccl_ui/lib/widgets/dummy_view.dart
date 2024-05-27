@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_support_pack/flutter_support_pack.dart';
+part of 'widgets.dart';
 
 /// A simple widget for debugging and testing purposes.
 ///

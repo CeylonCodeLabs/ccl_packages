@@ -1,12 +1,11 @@
-import 'package:ccl_ui/ccl_ui.dart';
-import 'package:flutter/material.dart';
+part of 'widgets.dart';
 
 class EmptyWidget extends StatelessWidget {
   final Widget? image;
   final Widget? button;
   final double? size;
   final String textMessage;
-  final Function()? onPressed;
+  final VoidCallback? onPressed;
 
   const EmptyWidget({
     super.key,

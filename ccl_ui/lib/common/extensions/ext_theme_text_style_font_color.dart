@@ -1,5 +1,4 @@
-import 'package:ccl_ui/ccl_ui.dart';
-import 'package:flutter/material.dart';
+part of '../common.dart';
 
 /// Extension on TextStyle to provide convenience methods for setting text colors
 /// based on theme colors
@@ -73,12 +72,19 @@ extension TextColorExtension on TextStyle? {
       this?.copyWith(color: context.colors.onErrorContainer);
 
   /// Creates a new TextStyle with the background color from the current context.
+  @Deprecated(
+      'Use wcSurface instead. '
+          'This feature was deprecated after v0.1.0'
+  )
   TextStyle? wcBackground(BuildContext context) =>
-      this?.copyWith(color: context.colors.background);
+       wcSurface(context);
 
   /// Creates a new TextStyle with the onBackground color from the current context.
-  TextStyle? wcOnBackground(BuildContext context) =>
-      this?.copyWith(color: context.colors.onBackground);
+  @Deprecated(
+      'Use wcOnSurface instead. '
+          'This feature was deprecated after v0.1.0'
+  )
+  TextStyle? wcOnBackground(BuildContext context) => wcOnSurface(context);
 
   /// Creates a new TextStyle with the surface color from the current context.
   TextStyle? wcSurface(BuildContext context) =>
@@ -89,8 +95,16 @@ extension TextColorExtension on TextStyle? {
       this?.copyWith(color: context.colors.onSurface);
 
   /// Creates a new TextStyle with the surfaceVariant color from the current context.
+  @Deprecated(
+      'Use wcSurfaceContainerHighest instead. '
+          'This feature was deprecated after v0.1.0'
+  )
   TextStyle? wcSurfaceVariant(BuildContext context) =>
-      this?.copyWith(color: context.colors.surfaceVariant);
+      wcSurfaceContainerHighest(context);
+
+  /// Creates a new TextStyle with the surfaceVariant color from the current context.
+  TextStyle? wcSurfaceContainerHighest(BuildContext context) =>
+      this?.copyWith(color: context.colors.surfaceContainerHighest);
 
   /// Creates a new TextStyle with the onSurfaceVariant color from the current context.
   TextStyle? wcOnSurfaceVariant(BuildContext context) =>

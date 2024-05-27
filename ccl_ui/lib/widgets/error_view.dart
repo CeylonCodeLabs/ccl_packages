@@ -1,6 +1,4 @@
-import 'package:ccl_ui/ccl_ui.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_support_pack/flutter_support_pack.dart';
+part of 'widgets.dart';
 
 /// A widget that displays an error message with an optional title and button.
 ///

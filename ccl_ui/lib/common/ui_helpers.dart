@@ -1,8 +1,4 @@
-import 'dart:math';
-
-import 'package:ccl_ui/common/common.dart';
-import 'package:flutter/material.dart';
-import 'package:responsive_builder/responsive_builder.dart';
+part of 'common.dart';
 
 /// Defines a constant for tiny size, which is 4.0.
 const double sizeTiny = 4.0;
@@ -86,10 +82,14 @@ const Widget spacedDivider = Column(
 Widget verticalSpace(double height) => SizedBox(height: height);
 
 /// Gets the screen width of the current context.
-double screenWidth(BuildContext context) => MediaQuery.of(context).size.width;
+double screenWidth(BuildContext context) => sw(context);
+
+double sw(BuildContext context) => MediaQuery.sizeOf(context).width;
 
 /// Gets the screen height of the current context.
-double screenHeight(BuildContext context) => MediaQuery.of(context).size.height;
+double screenHeight(BuildContext context) => sh(context);
+
+double sh(BuildContext context) => MediaQuery.sizeOf(context).height;
 
 /// Gets the fraction of the screen height considering [dividedBy] and [offsetBy],
 /// with a maximum of [max].
@@ -210,7 +210,7 @@ Color titleColor(BuildContext context, ScrollController scrollController,
     if (scrollController.offset > (expandedHeight - kToolbarHeight)) {
       // In case 0% of the expanded height is viewed
       return context.isDarkMode
-          ? context.colors.onBackground
+          ? context.colors.onSurface
           : context.colors.onPrimary;
     }
 
