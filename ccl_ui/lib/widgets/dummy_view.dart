@@ -28,6 +28,7 @@ class DummyView extends StatelessWidget {
   final String name;
 
   /// A constant identifier for logging purposes.
+  // ignore: constant_identifier_names
   static const TAG = 'DummyView';
 
   /// Creates a new instance of the DummyView widget.
