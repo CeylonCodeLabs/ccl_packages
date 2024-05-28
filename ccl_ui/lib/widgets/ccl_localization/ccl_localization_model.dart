@@ -4,13 +4,15 @@ part of '../widgets.dart';
 ///
 /// This view model provides access to the `localeController` stream and the current `locale`
 /// from the `LocalizationService`.
-class CCLLocalizationModel extends BaseViewModel {
+class CCLLocalizationModel extends ReactiveViewModel {
   /// The localization service used to access locale information.
   final LocalizationService _localizationService = StackedLocator.instance.get();
 
-  /// A stream of the current locale.
-  Stream<Locale> get localeController => _localizationService.localeController;
-
   /// The current locale.
   Locale get locale => _localizationService.getLocale();
+
+  @override
+  List<ListenableServiceMixin> get listenableServices => [_localizationService];
+
+  void init() => addListener(() => rebuildUi());
 }
