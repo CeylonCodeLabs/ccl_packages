@@ -1,1 +1,3 @@
-- chore(Release-UI): v0.2.1 (Pasan)
+- chore(Release - Service): v0.2.4 (Pasan)
+- refactor(Localization): Update UI and Service classes (Pasan)
+- docs(Change Log): Updates (Pasan)

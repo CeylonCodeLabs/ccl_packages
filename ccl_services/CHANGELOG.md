@@ -1,4 +1,20 @@
 
+<a name="Service-v0.2.4"></a>
+## [Service-v0.2.4](https://github.com/CeylonCodeLabs/ccl_packages/compare/UI-v0.2.1...Service-v0.2.4) (2024-05-28)
+
+### Chore
+
+* **Release - Service:** v0.2.4
+
+### Docs
+
+* **Change Log:** Updates
+
+### Refactor
+
+* **Localization:** Update UI and Service classes
+
+
 <a name="UI-v0.2.1"></a>
 ## [UI-v0.2.1](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.3...UI-v0.2.1) (2024-05-28)
 

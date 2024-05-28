@@ -1,1 +1,1 @@
-- chore(Release-UI): v0.2.1 (Pasan)
+- chore(Release-UI): v0.2.2 (Pasan)
