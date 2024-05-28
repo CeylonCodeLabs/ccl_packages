@@ -1,4 +1,36 @@
 
+<a name="UI-v0.2.3"></a>
+## [UI-v0.2.3](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.5...UI-v0.2.3) (2024-05-28)
+
+### Chore
+
+* **Release-UI:** v0.2.3
+
+### Docs
+
+* **Change Log:** Updated
+
+### Refactor
+
+* **UI-Localization:** Package update modifications
+
+
+<a name="Service-v0.2.5"></a>
+## [Service-v0.2.5](https://github.com/CeylonCodeLabs/ccl_packages/compare/UI-v0.2.2...Service-v0.2.5) (2024-05-28)
+
+### Chore
+
+* **Release - Service:** v0.2.5
+
+### Docs
+
+* **Change Log:** Updates
+
+### Refactor
+
+* **Service - Localization:** Add factory params to service
+
+
 <a name="UI-v0.2.2"></a>
 ## [UI-v0.2.2](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.4...UI-v0.2.2) (2024-05-28)
 
