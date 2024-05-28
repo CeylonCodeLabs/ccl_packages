@@ -9,7 +9,7 @@ class CCLLocalizationModel extends ReactiveViewModel {
   final LocalizationService _localizationService = StackedLocator.instance.get();
 
   /// The current locale.
-  Locale get locale => _localizationService.getLocale();
+  Locale get locale => _localizationService.locale;
 
   @override
   List<ListenableServiceMixin> get listenableServices => [_localizationService];
