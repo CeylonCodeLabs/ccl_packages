@@ -1,0 +1,5 @@
+- chore(Release - Service): v0.1.1 (Pasan)
+- docs(License): Updated (Pasan)
+- feat(Service): Add secure storage and localization services (Pasan)
+- refactor(UI): Refactor code structure and optimizations (Pasan)
+- docs(Change Log): Updates (Pasan)
