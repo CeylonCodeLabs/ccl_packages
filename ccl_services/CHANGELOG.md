@@ -1,4 +1,20 @@
 
+<a name="Service-v0.2.1"></a>
+## [Service-v0.2.1](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.0...Service-v0.2.1) (2024-05-28)
+
+### Chore
+
+* **Release - Service:** v0.2.1
+
+### Docs
+
+* **Change Log:** Updated
+
+### Refactor
+
+* **Service - Localization:** Add fallback locale on init
+
+
 <a name="Service-v0.2.0"></a>
 ## [Service-v0.2.0](https://github.com/CeylonCodeLabs/ccl_packages/compare/Services-v0.1.1...Service-v0.2.0) (2024-05-28)
 
