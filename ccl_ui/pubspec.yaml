@@ -1,6 +1,6 @@
 name: ccl_ui
 description: "CeylonCodeLabs UI Extensions"
-version: 0.2.0
+version: 0.2.1
 homepage: https://github.com/CeylonCodeLabs/ccl_packages
 
 environment:
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  ccl_services: ^0.2.1
-  flutter_support_pack: ^1.4.1
+  ccl_services: '>=0.2.2 <1.0.0'
+  flutter_support_pack: '>=1.4.1 <2.0.0'
   responsive_builder: ^0.7.0
   stacked: ^3.4.2
 
