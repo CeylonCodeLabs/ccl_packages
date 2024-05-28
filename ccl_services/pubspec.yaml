@@ -1,6 +1,6 @@
 name: ccl_services
 description: "CeylonCodeLabs Service Extensions"
-version: 0.1.1
+version: 0.2.0
 homepage: https://github.com/CeylonCodeLabs/ccl_packages
 publish_to: https://github.com/CeylonCodeLabs/ccl_packages/tree/main/ccl_services
 
