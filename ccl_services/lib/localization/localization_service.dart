@@ -20,9 +20,12 @@ class LocalizationService implements InitializableDependency {
   @override
   Future<void> init() async {
     final val = await _secureStorageService.locale.read();
-    final locale = val.isNotNullOrEmpty ? Locale(val!) : const Locale('en');
+    final languageCode = val ?? Intl.getCurrentLocale();
+    final locale = Locale(languageCode);
     _localeController = BehaviorSubject.seeded(locale);
   }
+
+  Locale getLocale() => localeController.value;
 
   /// Updates the current locale and persists it to secure storage.
   void onLocaleChanged(Locale locale) => _localeController.add(locale);
