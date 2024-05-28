@@ -14,7 +14,7 @@ class LocalizationService implements InitializableDependency {
   late final BehaviorSubject<Locale> _localeController;
 
   /// A stream of the current locale.
-  BehaviorSubject<Locale> get localeController => BehaviorSubject();
+  BehaviorSubject<Locale> get localeController => _localeController;
 
   /// Initializes the service by loading the locale from secure storage.
   @override
