@@ -1,4 +1,18 @@
 
+<a name="Service-v0.2.0"></a>
+## [Service-v0.2.0](https://github.com/CeylonCodeLabs/ccl_packages/compare/Services-v0.1.1...Service-v0.2.0) (2024-05-28)
+
+### Chore
+
+* **Release - Service:** v0.2.0
+
+### Docs
+
+* **Change Log:** Updated
+* **Code:** Add dart doc comments
+* **Readme:** Updated
+
+
 <a name="Services-v0.1.1"></a>
 ## [Services-v0.1.1](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.9...Services-v0.1.1) (2024-05-28)
 
