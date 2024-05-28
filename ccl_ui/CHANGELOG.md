@@ -1,4 +1,71 @@
 
+<a name="UI-v0.2.0"></a>
+## [UI-v0.2.0](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.1...UI-v0.2.0) (2024-05-28)
+
+### Chore
+
+* **Release-UI:** v0.2.0
+
+### Docs
+
+* **Change Log:** Updated
+
+### Feat
+
+* **UI:** Add CCLLocalization wrapper
+
+
+<a name="Service-v0.2.1"></a>
+## [Service-v0.2.1](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.0...Service-v0.2.1) (2024-05-28)
+
+### Chore
+
+* **Release - Service:** v0.2.1
+
+### Docs
+
+* **Change Log:** Updated
+
+### Refactor
+
+* **Service - Localization:** Add fallback locale on init
+
+
+<a name="Service-v0.2.0"></a>
+## [Service-v0.2.0](https://github.com/CeylonCodeLabs/ccl_packages/compare/Services-v0.1.1...Service-v0.2.0) (2024-05-28)
+
+### Chore
+
+* **Release - Service:** v0.2.0
+
+### Docs
+
+* **Change Log:** Updated
+* **Code:** Add dart doc comments
+* **Readme:** Updated
+
+
+<a name="Services-v0.1.1"></a>
+## [Services-v0.1.1](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.9...Services-v0.1.1) (2024-05-28)
+
+### Chore
+
+* **Release - Service:** v0.1.1
+
+### Docs
+
+* **Change Log:** Updates
+* **License:** Updated
+
+### Feat
+
+* **Service:** Add secure storage and localization services
+
+### Refactor
+
+* **UI:** Refactor code structure and optimizations
+
+
 <a name="v0.0.9"></a>
 ## [v0.0.9](https://github.com/CeylonCodeLabs/ccl_packages/compare/v0.0.8...v0.0.9) (2024-04-23)
 
