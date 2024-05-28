@@ -1,4 +1,20 @@
 
+<a name="UI-v0.2.0"></a>
+## [UI-v0.2.0](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.1...UI-v0.2.0) (2024-05-28)
+
+### Chore
+
+* **Release-UI:** v0.2.0
+
+### Docs
+
+* **Change Log:** Updated
+
+### Feat
+
+* **UI:** Add CCLLocalization wrapper
+
+
 <a name="Service-v0.2.1"></a>
 ## [Service-v0.2.1](https://github.com/CeylonCodeLabs/ccl_packages/compare/Service-v0.2.0...Service-v0.2.1) (2024-05-28)
 
