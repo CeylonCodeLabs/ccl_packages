@@ -1,6 +1,1 @@
-- chore(Release - Service): v0.2.2 (Pasan)
-- fix(Service-Localization): Changed controller reference param (Pasan)
-- docs(Change Log): Updates (Pasan)
-- chore(Release-UI): v0.2.0 (Pasan)
-- feat(UI): Add CCLLocalization wrapper (Pasan)
-- docs(Change Log): Updated (Pasan)
+- chore(Release-UI): v0.2.1 (Pasan)

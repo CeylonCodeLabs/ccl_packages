@@ -1,3 +1,1 @@
-- chore(Release-UI): v0.2.0 (Pasan)
-- feat(UI): Add CCLLocalization wrapper (Pasan)
-- docs(Change Log): Updated (Pasan)
+- chore(Release-UI): v0.2.1 (Pasan)
